@@ -1,10 +1,6 @@
 # main links
 main:
-  - title: "Project"
-    utl: /project/
   - title: "Category"
     url: "/categories/"
-  - title: "Tag"
+  - title: "Tags"
     url: /tags/
-  - title: "Year"
-    url: /year/
