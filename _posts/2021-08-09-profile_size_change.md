@@ -45,4 +45,4 @@ _sass/minimal-mistakes/_sidebar.scss 에서
 ```
 img 부분을 수정한다.
 
-나는 padding값이 싫어서 0px로 바꾸고, max-width 를 150px로 키우고, border-radius를 30%로 바꾸었다!
+나는 padding값이 싫어서 0px로 바꾸고, max-width 를 200px로 키우고, border-radius를 30%로 바꾸었다!
