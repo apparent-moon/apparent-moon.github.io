@@ -89,6 +89,13 @@
       position: sticky;
       top: 2em;
       float: right;
+
+      .toc {
+        .toc__menu {
+          overflow-y: auto;
+          max-height: calc(100vh - 7em);
+        }
+      }
     }
   }
 
@@ -127,11 +134,11 @@
   }
 
   img {
-    max-width: 110px;
-    border-radius: 50%;
+    max-width: 150px;
+    border-radius: 30%;
 
     @include breakpoint($large) {
-      padding: 5px;
+      padding: 0px;
       border: 1px solid $border-color;
     }
   }
