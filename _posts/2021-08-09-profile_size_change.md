@@ -1,5 +1,5 @@
 ---
-title:  "깃허브 블로그 프로필 사이즈 조절"
+title:  "깃허브 블로그 프로필 사이즈 조절하기"
 categories:
 - Github_Blog
 tags: 
@@ -9,9 +9,10 @@ last_modified_at: 2021-08-09
 ---
 
 
-# 깃허브 블로그 프로필 사이즈 조절하는방법
+## 깃허브 블로그 프로필 사이즈 조절하는 방법
 
-    minimal-mistakes 기준
+minimal-mistakes 기준
+{: .notice}
 
 _sass/minimal-mistakes/_sidebar.scss 에서
 
