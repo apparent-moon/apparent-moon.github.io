@@ -1,5 +1,5 @@
 ---
-title:  "깃허브 블로그 프로필 사이즈 조절하기"
+title:  "[Blog] 깃허브 블로그 프로필 사이즈 조절하기"
 categories:
 - Github_Blog
 tags: 

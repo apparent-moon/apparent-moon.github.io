@@ -1,5 +1,5 @@
 ---
-title: "깃허브 블로그 포스트 날짜 표기하기"
+title: "[Blog] 깃허브 블로그 포스트 날짜 표기하기"
 categories:
 - Github_Blog
 tags: 
