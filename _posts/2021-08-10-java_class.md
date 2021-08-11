@@ -3,7 +3,7 @@ title: "[자바(JAVA)] 클래스(Class)"
 categories:
 - JAVA
 tags: 
-- [JAVA, Constructor, Object, Instance]
+- [JAVA, Class]
 date: 2021-08-10
 last_modified_at: 2021-08-10
 toc: true
