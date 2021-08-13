@@ -1,5 +1,5 @@
 ---
-title: "[자바(JAVA)] 필드(filed) (=전역변수, 멤버변수)"
+title: "[자바(JAVA)] 필드(field) (=전역변수, 멤버변수)"
 categories:
 - JAVA
 tags: 
@@ -11,7 +11,7 @@ toc_sticky: true
 toc_label: "필드(=전역변수,멤버변수)"
 ---
 
-## 필드(filed)
+## 필드(field)
 
 필드는 객체의 데이터를 저장하는 곳으로, 객체가 가지는 속성을 변수로 표현한 것이다.
 
