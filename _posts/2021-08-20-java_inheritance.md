@@ -79,6 +79,7 @@ private를 **protected**로 작성하면 자식클래스에서 상속이 가능�
 부모 클래스에 기본 생성자가 없다면 super()를 반드시 명시해줘야 하고, 있다면 명시하지 않아도 컴파일러에서 생성해준다.
 
 >Animal.java
+
 ```java
 public class Animal{
     public String name;
@@ -92,6 +93,7 @@ public class Animal{
 ```
 
 >Lion.java
+
 ```java
 public class Lion extends Animal{
     public int legs;
