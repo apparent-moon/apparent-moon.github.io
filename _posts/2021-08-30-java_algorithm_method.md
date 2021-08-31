@@ -5,7 +5,7 @@ categories:
 tags: 
 - [JAVA, Algorithm, Method]
 date: 2021-08-30
-last_modified_at: 2021-08-30
+last_modified_at: 2021-08-31
 toc: true
 toc_sticky: true
 toc_label: "클래스 별 메소드"
@@ -62,3 +62,17 @@ String s= "abcdE";
 System.out.println(s.toUpperCase()); //ABCDE
 ```
 
+split()
+- 문자열 배열 형식으로 리턴.
+
+split( , limit)
+- limit 의 개수만큼 문자열을 나눈다
+
+```java
+        String str = "Hi Today is rainy";
+        String[] result = str.split(" "); //공백을 기준으로 문자열을 나눈다
+        String[] result2 = str.split(" ", 2);
+        System.out.println(Arrays.toString(result));//배열 형식으로 리턴하므로, Arrays 클래스의 toString메소드를 이용해서 출력했다.
+        //[Hi, Today, is, rainy] limit이 없을때는 공백을 기준으로 자른다.
+        System.out.println(Arrays.toString(result2)); //[Hi, Today is rainy] limit을 2로 주어서 문자열을 2개로 나누었다.
+```
