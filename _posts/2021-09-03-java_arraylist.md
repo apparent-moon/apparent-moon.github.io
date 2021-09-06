@@ -21,8 +21,6 @@ toc_label: "ArrayList"
 
 ## ArrayList 선언 방법
 
-
-
 ```java
 ArrayList<타입> 변수명 = new ArrayList<타입>();
 

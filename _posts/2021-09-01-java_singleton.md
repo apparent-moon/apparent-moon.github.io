@@ -63,7 +63,7 @@ public class CompanyTest {
 
 	public static void main(String[] args) {
 
-		Company c1 = Company.getInstance();
+		Company c1 = Company.getInstance(); //싱글톤 패턴으로 구현된 객체를 호출할때는 이렇게 호출한다.
 		Company c2 = Company.getInstance();
 		
 		System.out.println(c1);
