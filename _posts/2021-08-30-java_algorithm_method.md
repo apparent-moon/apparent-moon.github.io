@@ -5,7 +5,7 @@ categories:
 tags: 
 - [JAVA, Algorithm, Method]
 date: 2021-08-30
-last_modified_at: 2021-08-31
+last_modified_at: 2021-09-07
 toc: true
 toc_sticky: true
 toc_label: "클래스 별 메소드"
@@ -49,6 +49,9 @@ char c = 'a';
 boolean result = Character.isLowerCase(c);
 System.out.println(result); //true
 ```
+
+getNumericValue()
+- char형을 int 형으로 바꾸어서 return해준다.
 
 ## String 클래스
 toCharArray()
