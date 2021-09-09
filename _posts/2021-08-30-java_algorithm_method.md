@@ -5,7 +5,7 @@ categories:
 tags: 
 - [JAVA, Algorithm, Method]
 date: 2021-08-30
-last_modified_at: 2021-09-07
+last_modified_at: 2021-09-09
 toc: true
 toc_sticky: true
 toc_label: "클래스 별 메소드"
@@ -78,4 +78,41 @@ split( , limit)
         System.out.println(Arrays.toString(result));//배열 형식으로 리턴하므로, Arrays 클래스의 toString메소드를 이용해서 출력했다.
         //[Hi, Today, is, rainy] limit이 없을때는 공백을 기준으로 자른다.
         System.out.println(Arrays.toString(result2)); //[Hi, Today is rainy] limit을 2로 주어서 문자열을 2개로 나누었다.
+```
+
+## Array 클래스
+sort()
+- 배열을 오름차순으로 정렬해준다.
+```java
+        int[] arr = {99, 10, 35, 1, 55};
+        Arrays.sort(arr);
+        for(int i = 0; i < arr.length; i++){
+            System.out.print(arr[i] + " "); // 1 10 35 55 99 
+        }
+```
+
+## Integer 클래스
+equals()
+= 두 값을 비교한다.
+```java
+public class Main {
+    public static void main(String[] args) {
+        Integer intA = Integer.valueOf(10);
+        Integer intB = Integer.valueOf(15);
+        
+
+        if( intA.equals(intB) ){
+            System.out.println("True");
+        }else{
+            System.out.println("False");
+        }//결과 : False
+
+        //이런식으로도 가능하다!
+        if( intA.intValue() == intB.intValue() ){
+            System.out.println("True");
+        }else{
+            System.out.println("False");
+        }//결과 : False
+    }
+}
 ```
