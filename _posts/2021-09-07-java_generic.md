@@ -1,14 +1,14 @@
 ---
-title: "[자바(JAVA)] Object클래스"
+title: "[자바(JAVA)] Generic 자료형"
 categories:
 - JAVA
 tags: 
-- [JAVA, Object class, java.lang]
+- [JAVA, Generic]
 date: 2021-09-06
 last_modified_at: 2021-09-06
 toc: true
 toc_sticky: true
-toc_label: "Object class"
+toc_label: "Generic"
 ---
 
 ## Generic 자료형
