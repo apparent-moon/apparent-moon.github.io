@@ -5,13 +5,14 @@ categories:
 tags: 
 - [JAVA, Algorithm, Method]
 date: 2021-08-30
-last_modified_at: 2021-09-09
+last_modified_at: 2021-09-13
 toc: true
 toc_sticky: true
 toc_label: "클래스 별 메소드"
 ---
 
 자바문제를 풀면서 사용한 메소드들을 정리해두기 위해서 만든 포스팅입니다.
+
 * * *
 
 ## Scanner 클래스
@@ -53,6 +54,28 @@ System.out.println(result); //true
 getNumericValue()
 - char형을 int 형으로 바꾸어서 return해준다.
 
+isAlphabetic()
+- char형이 알파벳인지 아닌지 확인하여 t/f값을 넘겨준다.
+
+```java
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        String str = sc.next(); //string을 입력받는다.
+
+        char[] a = str.toCharArray(); //str로 받아온 값을 char형 배열로 바꿔준다.
+
+        for(int i = 0; i < a.length; i++){
+            if(Character.isAlphabetic(a[i])){
+                System.out.println(a[i]);
+            }else if(!Character.isAlphabetic(a[i])){
+                System.out.println("false");
+            }
+        }
+    }
+```
+![img](/image/java_char_isAlphabetic.PNG)
+
 ## String 클래스
 toCharArray()
 - 문자열을 배열형태로 바꿈
@@ -80,6 +103,9 @@ split( , limit)
         System.out.println(Arrays.toString(result2)); //[Hi, Today is rainy] limit을 2로 주어서 문자열을 2개로 나누었다.
 ```
 
+trim
+- 문자열의 앞뒤 공백을 지워준다
+
 ## Array 클래스
 sort()
 - 배열을 오름차순으로 정렬해준다.
@@ -93,7 +119,7 @@ sort()
 
 ## Integer 클래스
 equals()
-= 두 값을 비교한다.
+- 두 값을 비교한다.
 ```java
 public class Main {
     public static void main(String[] args) {
