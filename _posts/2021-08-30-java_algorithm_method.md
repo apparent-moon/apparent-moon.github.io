@@ -103,8 +103,16 @@ split( , limit)
         System.out.println(Arrays.toString(result2)); //[Hi, Today is rainy] limit을 2로 주어서 문자열을 2개로 나누었다.
 ```
 
-trim
+trim()
 - 문자열의 앞뒤 공백을 지워준다
+
+indexOf()
+- 특정 문자나 문자열이 처음 발견되는 인덱스를 반환해준다.
+- 찾지 못할 경우 `-1` 을 반환해준다.
+
+lastIndexOf()
+- 특정 문자나 문자열을 뒤에서부터 검사해서 처음 발견되는 인덱스를 반환해준다.
+- 찾지 못할 경우 `-1`을 반환해준다.
 
 ## Array 클래스
 sort()
