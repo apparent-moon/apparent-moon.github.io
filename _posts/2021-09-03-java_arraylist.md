@@ -5,7 +5,7 @@ categories:
 tags: 
 - [JAVA, ArrayList, CollectionFramework]
 date: 2021-09-03
-last_modified_at: 2021-09-03
+last_modified_at: 2021-09-27
 toc: true
 toc_sticky: true
 toc_label: "ArrayList"
@@ -32,28 +32,58 @@ ArrayList<타입> 변수명 = new ArrayList<>();
 
 > ArrayList 객체 추가
 
-```
-ArrayList변수명.add(값);
-변수명,add(인덱스번호,값);
+```java
+변수명.add(값);
+변수명.add(인덱스번호,값);
+
+[ex]
+AraryList<String> list = new ArrayList<>();
+
+list.add("banana");
+list.add(1,"apple");
 ```
 
 > ArrayList의 크기
 
 ```
-ArrayList변수명.size();
+변수명.size();
 ```
 
 > ArrayList 객체 삭제
 
 ```
-ArrayList변수명.remove(인덱스번호);
-ArrayList변수명.clear(); //모든 값이 제거된다
+변수명.remove(인덱스번호);
+변수명.clear(); //모든 값이 제거된다
 ```
 
 > ArrayList 객체 얻기
 
 ```
-ArrayList변수명.get(인덱스번호);
+변수명.get(인덱스번호);
+```
+
+> ArrayList 전체 값 확인
+```java
+1. for문
+
+[ex1]
+
+for(int i = 0; i < list.size; i++){
+	String str = list.get(i);
+}
+
+for(String str :list){
+	
+}
+
+2. Iterator
+
+[ex2] : list 라는 arrayList가 선언되어있을 때
+Iterator<String> iterator = list.iterator();
+    while (iterator.hasNext()) {
+        System.out.print(iterator.next() + "  ");
+    }
+    System.out.println();
 ```
 
 ### 같은 클래스 안에서 사용 예시
