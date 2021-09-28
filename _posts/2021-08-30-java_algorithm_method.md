@@ -5,7 +5,7 @@ categories:
 tags: 
 - [JAVA, Algorithm, Method]
 date: 2021-08-30
-last_modified_at: 2021-09-15
+last_modified_at: 2021-09-29
 toc: true
 toc_sticky: true
 toc_label: "클래스 별 메소드"
@@ -55,7 +55,7 @@ getNumericValue()
 - char형을 int 형으로 바꾸어서 return해준다.
 
 isAlphabetic()
-- char형이 알파벳인지 아닌지 확인하여 t/f값을 넘겨준다.
+- char값이 알파벳인지 아닌지 확인하여 t/f값을 넘겨준다.
 
 ```java
     public static void main(String[] args) {
@@ -75,6 +75,14 @@ isAlphabetic()
     }
 ```
 ![img](/image/java_char_isAlphabetic.PNG)
+
+isLetter()
+- char값이 문자인지 여부를 확인해서 t/f값을 넘겨준다. 
+
+isDigit()
+- char값이 숫자인지 여부를 확인해서 t/f값을 넘겨준다.
+
+
 
 ## String 클래스
 toCharArray()
