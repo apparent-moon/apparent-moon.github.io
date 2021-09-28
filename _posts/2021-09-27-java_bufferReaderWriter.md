@@ -1,14 +1,14 @@
 ---
-title: "[자바(JAVA)] BufferReader"
+title: "[자바(JAVA)] BufferedReader & BufferedWriter"
 categories:
 - JAVA
 tags: 
-- [JAVA, BufferReader, BufferWriter]
+- [JAVA, BufferedReader, BufferedWriter]
 date: 2021-09-27
 last_modified_at: 2021-09-27
 toc: true
 toc_sticky: true
-toc_label: "BufferReader/Writer"
+toc_label: "BufferedReader/BufferedWriter"
 ---
 
 ## 버퍼(Buffer)
@@ -16,7 +16,7 @@ toc_label: "BufferReader/Writer"
 데이터를 한 곳에서 다른 한 곳으로 전송하는 동안 일시적으로 메모리를 보관하는 임시 메모리 영역.
 I/O 접근 빈도가 적어서 성능이 Scanner에 비해서 좋다.
 
-## BufferReader
+## BufferedReader
 
 - 사용자로부터 데이터를 받을 때는 객체를 생성하여 입력을 받는다.
 - Enter를 쳐야 입력의 마지막으로 인식한다.
@@ -36,7 +36,7 @@ String s = 변수명.readLine();
     }
 ```
 
-## BufferWriter
+## BufferedWriter
 
 - flush()를 호출해서 남은 데이터를 호출해줘야한다.
 - close() 를 호출해서 닫아주어야한다.
