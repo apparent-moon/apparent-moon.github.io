@@ -5,7 +5,7 @@ categories:
 tags: 
 - [JAVA, Algorithm, Method]
 date: 2021-08-30
-last_modified_at: 2021-09-29
+last_modified_at: 2021-10-22
 toc: true
 toc_sticky: true
 toc_label: "클래스 별 메소드"
@@ -123,13 +123,23 @@ lastIndexOf()
 - 찾지 못할 경우 `-1`을 반환해준다.
 
 ## Array 클래스
-sort()
-- 배열을 오름차순으로 정렬해준다.
+sort(배열이름)
+- 배열을 오름차순으로 정렬해준다.(작은수부터)
 ```java
         int[] arr = {99, 10, 35, 1, 55};
         Arrays.sort(arr);
         for(int i = 0; i < arr.length; i++){
             System.out.print(arr[i] + " "); // 1 10 35 55 99 
+        }
+```
+
+sort(배열이름, Collections.reverseOrder())
+- 배열을 내림차순으로 정렬해준다.(큰수부터)
+```java
+        int[] arr = {99, 10, 35, 1, 55};
+        Arrays.sort(arr,Collections.reverseOrder());
+        for(int i = 0; i < arr.length; i++){
+            System.out.print(arr[i] + " "); // 99 55 35 10 1
         }
 ```
 
