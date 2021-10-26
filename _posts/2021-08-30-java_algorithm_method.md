@@ -135,10 +135,14 @@ sort(배열이름)
 
 sort(배열이름, Collections.reverseOrder())
 - 배열을 내림차순으로 정렬해준다.(큰수부터)
+- Integer 배열일때만 사용이 가능하다. 아닐경우에는 int[] -> Integer[] 으로 바꾸어주어야함!
 ```java
         int[] arr = {99, 10, 35, 1, 55};
-        Arrays.sort(arr,Collections.reverseOrder());
-        for(int i = 0; i < arr.length; i++){
+
+        Integer[] arr2 = Arrays.stream(arr).boxed().toArray(Integer[] :: new);
+        Arrays.sort(arr2, Collections.reverseOrder());
+
+        for(int i = 0; i < arr2.length; i++){
             System.out.print(arr[i] + " "); // 99 55 35 10 1
         }
 ```
