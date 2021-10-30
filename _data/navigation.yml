@@ -1,5 +1,7 @@
 # main links
 main:
+  - title: "Project"
+    url: /project/
   - title: "Category"
     url: "/categories/"
   - title: "Tags"
