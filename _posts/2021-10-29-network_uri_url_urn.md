@@ -5,7 +5,7 @@ categories:
 tags: 
 - [Network, Computer Network, URI, URL, URN]
 date: 2021-10-29
-last_modified_at: 2021-10-29
+last_modified_at: 2021-11-02
 toc: true
 toc_sticky: true
 toc_label: "URI URL URN"
@@ -22,7 +22,30 @@ toc_label: "URI URL URN"
 
 - 자원의 위치에 대한 경로값(위치값)을 지닌 문자열
 - 자원(리소스)의 구체적인 위치를 서술한 문자열
-- http:// , https:// 등의 프로토콜을 이용한다
+
+### URL 구성
+
+`
+shceme://[userinfo@]host[:port][/path][?query][#fragment]
+`
+
++ scheme : 주로 프로토콜을 사용. 어떤 방식으로 자원에 접근할 것인지
+    - http:// , https:// 등의 프로토콜을 이용한다
+
++ userinfo : 거의 사용X
+
++ host : 호스트명. 도메인명 또는 IP주소 사용가능
+
++ port : 접속 포트. 일반적으로 생략된다.
+
++ path : 리소스 경로, 계층적인 구조. `/`를 이용.
+    - study/network, study/java...
+
++ query : key-value의 형태, `?`로시작하고 `&`으로 추가 가능하다.   
+쿼리파라미터, 쿼리 스트링으로 불린다.
+    - ?q=helloWorld
+
++ fragment : html 내부 북마크에서 사용함
 
 ## URN(Uniform Resource Name) : 통합 자원 이름
 
