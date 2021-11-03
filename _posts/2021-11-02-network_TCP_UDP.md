@@ -24,6 +24,8 @@ toc_label: "TCP & UDP"
 
 ### 패킷(Packet = Package + Bucket)
 
+데이터를 주고받을 때 네트워크를 통해 전송되는 데이터 조각
+
 ### TCP 3-way handshaking
 
 1. 클라이언트 -> 서버 | SYN : 접속 요청
