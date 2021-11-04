@@ -13,7 +13,7 @@ toc_label: "HTTP"
 
 ## HTTP (HyperText Transfer Porocol)
 
-
+클라이언트와 서버 사이에서 데이터를 전송하는 프로토콜
 
 ### 특징
 - 클라이언트-서버 구조 (Request Response)
@@ -28,7 +28,7 @@ toc_label: "HTTP"
 
 ## HTTPS (HyperText Transfer Protocol Secure)
 
-데이터를 전송하기 전 내용을 `암호화` 한다
+데이터를 전송하기 전 내용을 `암호화` 하는 프로토콜
 
 ### 특징
 
