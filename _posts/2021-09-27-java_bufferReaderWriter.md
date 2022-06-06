@@ -31,7 +31,7 @@ String s = 변수명.readLine();
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String s = br.readLine();
-        int i = Integer.parseInt(br.readLint()) // String이 아닌 타입으로 입력을 받으려면 형변환 해줘야함!
+        int i = Integer.parseInt(br.readLine()) // String이 아닌 타입으로 입력을 받으려면 형변환 해줘야함!
         System.out.println(s);
     }
 ```
